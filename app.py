@@ -65,6 +65,6 @@ elif personality_map == "Investor":
 else:
     st.error("Track expenses and control impulse buying.")
 
-st.bar_chart(data[["eating_out","online_shopping","savings"]])
+st.bar_chart(data[["Eating Out (USD)","Online Shopping (USD)","Savings (USD)"]])
 
 

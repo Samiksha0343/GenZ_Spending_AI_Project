@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.ensemble import RandomForestClassifier
 
 # Load data
-data = pd.read_csv(r"C:\Users\Samiksha Desai\Desktop\GenZ Spending AI Project\genz spending.csv")
+data = pd.read_csv("Genz_Spending.csv")
 
 # Prepare AI model
 X_cluster = data[["Eating Out (USD)", "Online Shopping (USD)", "Savings (USD)"]]
